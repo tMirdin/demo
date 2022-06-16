@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header {
+  background-image: url(../images/BG.jpg);
+  height: 1052px;
+  padding-top: 65px;
+  box-sizing: border-box;
+}
+
+/* NAV START */
+
+nav {
+  width: 1300px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 157px;
+  height: 40px;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* burger none */
+.burger-icon,
+.burger-check,
+.burger-close {
+  display: none !important;
+}
+
+.nav-info {
+  width: 376px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-info span {
+  width: 63px;
+  height: 22px;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.nav-login {
+  width: 282px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-login span {
+  display: block;
+  width: 136px;
+  height: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.4237px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 9px;
+  box-sizing: border-box;
+}
+
+.nav-login button {
+  width: 132px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.4237px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #bb6df3;
+  border-radius: 20px;
+}
+
+/* NAV FINISH */
+
+/* MAIN-HEADER START */
+.main-header {
+  max-width: 1100px;
+  margin: 156px auto 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header-left {
+  max-width: 40%;
+}
+
+.main-header-left h1 {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 62px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #3b668d;
+}
+
+.main-header-left span {
+  display: block;
+  margin-bottom: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.905em;
+  text-transform: uppercase;
+  color: #3b668d;
+}
+
+.main-header-left hr {
+  height: 2px;
+  background: #3b668d;
+}
+
+.main-header-left h3 {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 156%;
+  text-transform: uppercase;
+  color: #3b668d;
+}
+
+.main-header-left p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156%;
+  letter-spacing: 0.075em;
+  color: #2b4964;
+}
+
+.main-header-left button {
+  width: 302px;
+  height: 75px;
+  background: rgba(0, 0, 0, 0.08);
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  background: linear-gradient(90deg, #5ac4ff 0%, #b250ff 100%);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 62px;
+}
+
+.main-header-right {
+  max-width: 60%;
+  /* position: absolute;
+  left: 36%; */
+}
+
+.main-header-right img {
+  width: 100%;
+}
+/* MAIN-HEADER FINISH */
+
+/* ! =========== SECTION-1 START ========= */
+
+.section-1 {
+  max-width: 1300px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-1__left {
+  max-width: 60%;
+  /* width: 800px;
+  height: 1000px; */
+  background-image: url(../images/section1cloud.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1__left img {
+  width: 100%;
+}
+
+.section-1__right {
+  max-width: 40%;
+}
+
+.block__bg-icon {
+  width: 90px;
+  height: 93px;
+  background-image: url(../images/bg-icon.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right__blocks {
+  width: 100%;
+  height: 217px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block__desc {
+  width: 75%;
+}
+
+.block__desc span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  color: #3b668d;
+}
+
+.block__desc p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2b4964;
+  margin: 0;
+}
+
+/* ! =========== SECTION-1 FINISH ========= */
+
+/* ! =========== Adaptive START ========== */
+@media all and (max-width: 1340px) {
+  .section-1 {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* Стили для меню, когда нажимаем на кнопку бургер */
+  .nav__info {
+    display: none;
+    position: absolute;
+    padding: 85px 30px 40px;
+    right: 0;
+    top: 0px;
+    background-color: rgb(100, 182, 237);
+    border-radius: 4px 0 0 4px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+      rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+  }
+
+  /* стили для li тегов */
+  .nav__info span {
+    margin: 0 0 10px;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid #0e1734;
+  }
+
+  /* ----------------------------------- */
+  /*todo making a burger menu */
+  /* показать бургер иконку */
+  .burger-icon {
+    display: block !important;
+  }
+
+  /* передвинуть бургер иконку на последнее место */
+  .nav__middle {
+    order: 1;
+    margin-left: 20px;
+  }
+
+  /* сдвинуть кнопку в правый конец */
+  .header__right {
+    margin-left: auto;
+  }
+
+  /* ------- */
+
+  /* create big input checkbox and hide it */
+  .burger-check {
+    display: block !important;
+    position: absolute;
+    top: 41px;
+    right: 29px;
+    z-index: 1001;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+    /* opacity: 0.7; */
+  }
+
+  /* открыть меню при нажатии на иконку бургер */
+  /* + - селектор следующего соседнего элемента */
+  .burger-check:checked + .nav__list {
+    display: block;
+  }
+
+  /* ~ - селектор следующих элементов */
+  .burger-check:checked ~ .burger-close {
+    display: block !important;
+    position: absolute;
+    z-index: 2;
+    top: 42px;
+    right: 32px;
+  }
+}
+
+/* ! =========== Adaptive FINISH ========== */
